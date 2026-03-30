@@ -39,4 +39,5 @@ public String toString() {
 return "ID: " + id + ", " + nombre + " (" + getTipo() + "), Salario: $" +
 calcularSalario() + (departamento != null ? ", Dept: " + departamento.getNombre() : "");
 }
+
 }
